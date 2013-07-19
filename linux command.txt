@@ -1,0 +1,1311 @@
+login as: pi
+Using keyboard-interactive authentication.
+Password:
+Linux raspberrypi 3.6.11+ #352 PREEMPT Wed Jan 9 17:16:53 GMT 2013 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Jan 15 18:31:29 2013 from pc-pc.home
+pi@raspberrypi ~ $ history
+  218  man locate
+  219  locate -d ada
+  220  locate -d / ada
+  221  locate -d / -i ada
+  222  sudo find / -lname "*adafruit*"
+  223  sudo find / -lname "adafruit"
+  224  sudo find / -lname Adafruit_DHT_googledocs.ex.py
+  225  sudo find / -lname "Adafruit_DHT_googledocs.ex.py"
+  226  sudo find /usr -lname "Adafruit_DHT_googledocs.ex.py"
+  227  sudo find /* -lname "Adafruit_DHT_googledocs.ex.py"
+  228  sudo find /* -lname "*.ex.py"
+  229  pwd
+  230  cd gspread-0.0.13/
+  231  ls -l
+  232  sudo python setup.py install
+  233  cd /usr/local/lib/python2.7/dist-packages/gspread-0.0.13.egg-info
+  234  cd /usr/local/lib/python2.7/dist-packages/
+  235  ls -l
+  236  cd gspread/
+  237  ls -l
+  238  sudo find /usr -r  -lname "*.ex.py"
+  239  sudo find / -ctime  1
+  240  sudo find / -ctime  24
+  241  sudo find / -mtime  24
+  242  ls -l
+  243  ./client.py
+  244  su
+  245  ppwd
+  246  pwd
+  247  cd ipaddress/
+  248  ls -l
+  249  ls -lsu
+  250  su
+  251  ls
+  252  cd ipaddress/
+  253  cd google_drive_uploader_and_emailer/
+  254  ls
+  255  clear
+  256  ls -l
+  257  ./uploader.py uploader.cfg out.avi
+  258  cd ipaddress/
+  259  cd /usr/local/lib/python2.7/dist-packages/gspread-0.0.13.egg-info
+  260  cd google_drive_uploader_and_emailer/
+  261  ls
+  262  cd /usr/local/lib/python2.7/dist-packages/gspread-0.0.13.egg-info
+  263  cd ipaddress/
+  264  passwd
+  265  ifconfig
+  266  who am i
+  267  who
+  268  ls
+  269  pwd
+  270  ping google.com
+  271  useradd
+  272  useradd kethan
+  273  su kethan
+  274  sudo
+  275  su
+  276  cd /home/pi/
+  277  cd /home/pi/googledrive/motion_google_drive
+  278  vi uploader.py
+  279  > uploader.py
+  280  vi uploader.py
+  281  > uploader.py
+  282  vi uploader.py
+  283  vi uploader.cfg
+  284  quit
+  285  logoff
+  286  logout
+  287  sudo vi script.sh
+  288  sudo sh script.sh
+  289  sh script.sh
+  290  vi script.sh
+  291  sh script.sh
+  292  vi script.sh
+  293  sh script.sh
+  294  vi script.sh
+  295  sh script.sh
+  296  vi script.sh
+  297  sh script.sh
+  298  vi script.sh
+  299  sh script.sh
+  300  vi script.sh
+  301  sh script.sh
+  302  vi script.sh
+  303  vi uploader.cfg
+  304  vi script.sh
+  305  cat command.txt
+  306  vi script.sh
+  307  sh script.sh
+  308  vi script.sh
+  309  sh script.sh
+  310  vi script.sh
+  311  sh script.sh
+  312  vi script.sh
+  313  sh script.sh
+  314  vi script.sh
+  315  sh script.sh
+  316  vi script.sh
+  317  sh script.sh
+  318  sh script.sh
+  319  vi script.sh
+  320  sh script.sh
+  321  vi script.sh
+  322  sh script.sh
+  323  vi script.sh
+  324  sh script.sh
+  325  vi script.sh
+  326  sh script.sh
+  327  vi script.sh
+  328  sh script.sh
+  329  ./client.pysudo apt-get update
+  330  sudo apt-get update
+  331  sudo apt-get install grive
+  332  sudo apt-get install git
+  333  sudo apt-cache search insync
+  334  sudo apt-cache search in
+  335  sudo apt-cache search insync
+  336  sudo apt-cache search
+  337  sudo apt-get install python
+  338  sudo apt-get install python-fuse
+  339  pwd
+  340  ls
+  341  mkdir googledrive
+  342  cd googledrive/
+  343  mkdir gd_sync
+  344  cd gd_sync/
+  345  ls -l
+  346  wget http://gdata-python-client.googlecode.com/files/gdata-2.0.14.zip
+  347  ls
+  348  tar -unzip
+  349  UNZIP
+  350  unzip
+  351  unzip gdata-2.0.14.zip
+  352  ls
+  353  cd gdata-2.0.14/
+  354  ls
+  355  cd ..
+  356  ls -l
+  357  echo prtsnls@gmail.com > .gdfs_user
+  358  ls -l
+  359  ls
+  360  echo prtsnls@gmail.com > .gdfs_usercd
+  361  ls -l
+  362  clear
+  363  ls -lrt
+  364  cd gdata-2.0.14/
+  365  ls -l
+  366  echo prtsnls@gmail.com > .gdfs_user
+  367  ls
+  368  ls -a
+  369  mkdir target_dir
+  370  gdfs.py target_dir
+  371  chmod 777 -r
+  372  chmod -r 777
+  373  chmod -r 777
+  374  chmod +x
+  375  chmod +x *
+  376  ls
+  377  ls -l
+  378  chmod +x -f *
+  379  ls -l
+  380  gdfs.py target_dir
+  381  ./setup.py
+  382  ./setup.py install_requires
+  383  gdfs.py
+  384  gdfs
+  385  ls -l
+  386  .setup.py
+  387  ./ setup.py
+  388  ./setup.py
+  389  ./setup.py *
+  390  vi INSTALL.txt
+  391  sudo python setup.py install
+  392  gdfs.py target_dir
+  393  ./gdfs.py target_dir
+  394  find / gdfs
+  395  find / -name "*gdfs"
+  396  su
+  397  ls -l
+  398  cd motion_google_drive/
+  399  wget https://docs.google.com/open?id=0BwV0KSf8UfmjdlpmZjVRS0FqVW8
+  400  ls
+  401  rm -rf *
+  402  ls
+  403  wget https://doc-0c-04-docs.googleusercontent.com/docs/securesc/377b465g1jdnst6k30ftqvvpn3na9h9k/q2tojk4o07r6gapm878t0843h6mh9o35/1357466400000/03325627721865976677/11357798645624407412/0BwV0KSf8UfmjNzhzNjVCMjhvWEE?e=download&nonce=7hpk9oqoftvis&user=11357798645624407412&hash=eq88l60f4h15fiv8jbcs3gaoale1agv9
+  404  ls
+  405  rm -rf
+  406  ls
+  407  ps
+  408  killall -9 2326
+  409  killall -9 2532
+  410  ps
+  411  ls
+  412  rm 0BwV0KSf8UfmjNzhzNjVCMjhvWEE\?e\=download
+  413  ls
+  414  vi uploader.py
+  415  vi uploader.cfg
+  416  ls
+  417  chmod 777
+  418  chmod 777 *
+  419  ls -l
+  420  vi uploader.cfg
+  421  vi uploader.py
+  422  apt-get update
+  423  sudo apt-get update
+  424  sudo apt-get install python2-pip
+  425  sudo apt-cache search pip
+  426  sudo apt-get install python-pip
+  427  ls -l
+  428  vi 85-20120608194940.avi
+  429  ./uploader.py uploader.cfg 85-20120608194940.avi
+  430  ls
+  431  uploader.py uploader.cfg 85-20120608194940.avi
+  432  pythpn uploader.py uploader.cfg 85-20120608194940.avi
+  433  [ython
+  434  python
+  435  python uploader.py uploader.cfg 85-20120608194940.avi
+  436  pwd
+  437  python uploader.py uploader.cfg 85-20120608194940.avi
+  438  chmod 777 *
+  439  python uploader.py uploader.cfg 85-20120608194940.avi
+  440  chmod 777 *
+  441  python uploader.py uploader.cfg 85-20120608194940.avi
+  442  vi  85-20120608194940.avi
+  443  python uploader.py uploader.cfg 85-20120608194940.avi
+  444  vi command.txt
+  445  ls -l
+  446  vi 85-20120608194940.avi
+  447  ls
+  448  cd ..
+  449  tar -cvzf motion_google_drive
+  450  tar -czf motion_google_drive
+  451  tar -cz motion_google_drive
+  452  tar -czf motion_google_drive
+  453  tar -czf motion_google_drive.tar.zp
+  454  ls -;
+  455  ls -l
+  456  tar -cf motion_google_drive
+  457  tar -cvf motion_google_drive
+  458  cd motion_google_drive
+  459  ls
+  460  cd .
+  461  cd ..
+  462  tar -cvzf  motion_google_drive
+  463  tar -cvzf  motion_google_drive .
+  464  ls -l
+  465  cd motion_google_drive/
+  466  ls
+  467  cd ..
+  468  tar -cvzf  motion_google_drive ./
+  469  ls
+  470  ls -l
+  471  tar -cvzf  motion_google_drive ./motion_google_drive.tgz
+  472  tar -cvzf  motion_google_drive motion_google_drive.tgz
+  473  tar -cvzf  motion_google_drive motion_google_drive.tar.gz
+  474  tar -cvzf  ./motion_google_drive motion_google_drive.tar.gz
+  475  tar -cvzf  motion_google_drive ./
+  476  ls -l
+  477  tar -cvzf  motion_google_drive ./
+  478  cp motion_google_drive motion_google_drive_backup
+  479  cp -rf  motion_google_drive motion_google_drive_backup
+  480  tar -cvzf  motion_google_drive_backup/ .
+  481  ls -l
+  482  cd motion_google_drive
+  483  ls -l
+  484  cat command.txt
+  485  vi ip.txt
+  486  curl http://ipecho.net/plain; echo
+  487  curl http://ipecho.net/plain; > ip.txt
+  488  vi ip.txt
+  489  curl http://ipecho.net/plain;>ip.txt
+  490  vi ip.txt
+  491  vi script.sh
+  492  vi test.sh
+  493  sh test.sh
+  494  vi test.sh
+  495  sh test.sh
+  496  ls -l
+  497  vi hello
+  498  echo '
+  499  echo 'curl http://ipecho.net/plain'
+  500  echo `curl http://ipecho.net/plain`
+  501  echo "curl http://ipecho.net/plain"
+  502  echo 'curl http://ipecho.net/plain'
+  503  'curl http://ipecho.net/plain'
+  504  echo `curl http://ipecho.net/plain` > ip.txt
+  505  vi ip.txt
+  506  vi script.sh
+  507  sh script.sh
+  508  vi script.sh
+  509  sh script.sh
+  510  curl http://ipecho.net/plain; echo
+  511  `curl http://ipecho.net/plain; echo`
+  512  curl http://ipecho.net/plain; echo
+  513  vi script.sh
+  514  sh script.sh
+  515  vi script.sh
+  516  sh script.sh
+  517  cat ip.txt
+  518  vi script.sh
+  519  sh script.sh
+  520  vi script.sh
+  521  sh script.sh
+  522  vi script.sh
+  523  sh script.sh
+  524  cat ip.txt
+  525  crontab
+  526  crontab -e
+  527  pwd
+  528  vi script.sh
+  529  sh script.sh
+  530  vi script.sh
+  531  sh script.sh
+  532  vi script.sh
+  533  clear
+  534  vi script.sh
+  535  sh script.sh
+  536  vi script.sh
+  537  sh script.sh
+  538  vi ip.avi
+  539  sh script.sh
+  540  vi script.sh
+  541  sh script.sh
+  542  vi script.sh
+  543  sh script.sh
+  544  vi script.sh
+  545  sh script.sh
+  546  vi script.sh
+  547  sh script.sh
+  548  vi script.sh
+  549  sh script.sh
+  550  sudo chmod 777 *
+  551  ls
+  552  sudo chmod 777 *
+  553  sh script.sh
+  554  ls -l
+  555  vi script.sh
+  556  su
+  557  cd
+  558  /home/pi/googledrive/motion_google_drive
+  559  cd /home/pi/googledrive/motion_google_drive
+  560  ls
+  561  ls -l
+  562  ./script.sh
+  563  pwd
+  564  crond
+  565  crontab -e
+  566  /home/pi/googledrive/motion_google_drive/script.sh
+  567  /home/pi/googledrive/motion_google_driveODle_drive/
+  568  cd /home/pi/googledrive/motion_google_drive
+  569  ls
+  570  ./script.sh
+  571  vi script.sh
+  572  ./script.sh
+  573  ls -l
+  574  vi ip.avi
+  575  ./script.sh
+  576  vi ip.avi
+  577  /home/pi/googledrive/motion_google_drive/script.sh
+  578  vi ip.avi
+  579  vi cron.txt
+  580  time
+  581  date
+  582  date %s
+  583  date "%s
+  584  cal %s
+  585  crontab -e
+  586  ls -l
+  587  crontab -e
+  588  vi ip.avi
+  589  tail -200f cron.txt
+  590  tail  cron.txt
+  591  /home/pi/googledrive/motion_google_drive/script.sh
+  592  vi ip.avi
+  593  crontab -e
+  594  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  595  ps -A | grep cron
+  596  cat /val/log/cron.log
+  597  chkconfig --list|grep cron
+  598  cat /var/log/cron
+  599  ps aux | grep -i cron | grep -v grep
+  600  /etc/init.d/crond restart
+  601  sudo apt-get install locate
+  602  locate crond
+  603  locate / crond
+  604  ps
+  605  killall -9 /etc/init.d/crond
+  606  killall -9 5294
+  607  kill -9 5294
+  608  ps
+  609  find /sbin crond
+  610  find /sbin -name "crond"
+  611  find /bin -name "crond"
+  612  find -rf /bin -name "crond"
+  613  find -r /bin -name "crond"
+  614  find /bin -name "crond"
+  615  find /bin -name "*crond"
+  616  find /bin -name "*crond*"
+  617  find / -name "*crond*"
+  618  /run/crond.reboot
+  619  sudo /run/crond.reboot
+  620  find /bin -name "*crond*"
+  621  find / -name "*crond*"
+  622  sudo find / -name "*crond*"
+  623  cd /run
+  624  ls
+  625  sudo crond.reboot
+  626  sudo ./crond.reboot
+  627  ls -l
+  628  sudo find / -name "*crond*"
+  629  cat /var/spool/cron/crontabs
+  630  sudo /var/spool/cron/crontabs
+  631  sudo cat /var/spool/cron/crontabs
+  632  sudo cd  /var/spool/cron/crontabs/
+  633  cd /var/spool/cron/crontabs/
+  634  ls
+  635  su
+  636  /etc/init.d/rsyslog restart
+  637  cat /var/log/cron.log
+  638  vi /etc/rsyslog.conf
+  639  vi /var/log/cron.log
+  640  cat /var/log/cron.log
+  641  /etc/init.d/rsyslog restart
+  642  crontab -e
+  643  /etc/init.d/cron restart
+  644  sudo /etc/init.d/cron restart
+  645  cat /var/log/cron.log
+  646  crontab -e
+  647  sudo /etc/init.d/cron restart
+  648  cat /var/log/cron.log
+  649  crontab -e
+  650  vi /etc/crontab
+  651  cp /etc/crontab  /etc/crontab.backup
+  652  sudo cp /etc/crontab  /etc/crontab.backup
+  653  vi /etc/crontab
+  654  sudo chmod +w /etc/crontab
+  655  vi /etc/crontab
+  656  su
+  657  crontab -l
+  658  times command
+  659  crontab -l
+  660  times command
+  661  man 5 crontab
+  662  crontab -e
+  663  echo "Hello"
+  664  cron
+  665  sudo cron
+  666  crontab -e
+  667  vi /etc/rsyslog.conf
+  668  chmod +w /etc/rsyslog.conf
+  669  sudo chmod +w /etc/rsyslog.conf
+  670  vi /etc/rsyslog.conf
+  671  ls -l
+  672  ls -l /etc/rsyslog.conf
+  673  su
+  674  crontab -r
+  675  crontab -l
+  676  crontab -e
+  677  sudo /etc/init.d/cron restart
+  678  crontab -l
+  679  vi /etc/rsyslog.conf
+  680  cat /var/log/cron.log
+  681  > /var/log/cron.log
+  682  sudo > /var/log/cron.log
+  683  su
+  684  crontab -e
+  685  cat
+  686  cat /var/log/cron.log
+  687  clear
+  688  cd
+  689  cd /home/pi/googledrive/motion_google_drive/
+  690  vi ip.avi
+  691  /home/pi/googledrive/motion_google_drive/script.sh
+  692  vi ip.avi
+  693  crontab -e
+  694  /etc/init.d/rsyslog restart
+  695  cat
+  696  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  697  > /home/pi/googledrive/motion_google_drive/cron.txt
+  698  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  699  vi ip.avi
+  700  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  701  i  /home/pi/googledrive/motion_google_drive/script.sh
+  702  vi  /home/pi/googledrive/motion_google_drive/script.sh
+  703  ./home/pi/googledrive/motion_google_drive/script.sh
+  704  sh  /home/pi/googledrive/motion_google_drive/script.sh
+  705  vi ip.avi
+  706  sh  /home/pi/googledrive/motion_google_drive/script.sh
+  707  > ip.avi
+  708  sh  /home/pi/googledrive/motion_google_drive/script.sh
+  709  > ip.avi
+  710  > cron.txt
+  711  cat cron.txt
+  712  cat ip.avi
+  713  cat cron.txt
+  714  > cron.txt
+  715  cat cron.txt
+  716  cat cron.txt
+  717  vi finalscript.sh
+  718  nohup finalscript.sh &nohup /home/pi/googledrive/motion_google_drive/finalscript.sh &
+  719  ps
+  720  kill -9 2403
+  721  kill -9 2570
+  722  ps
+  723  ps -ef |
+  724  > ip.avi
+  725  > cron.txt
+  726  nohup /home/pi/googledrive/motion_google_drive/finalscript.sh &
+  727  chmod 777 finalscript.sh
+  728  nohup /home/pi/googledrive/motion_google_drive/finalscript.sh &
+  729  ps -ef | grep nohup
+  730  ps -ef | grep final
+  731  ps -ef | grep finalscript
+  732  nohup /home/pi/googledrive/motion_google_drive/finalscript.sh &
+  733  cd
+  734  /home/pi/googledrive/motion_google_drive
+  735  cd
+  736  /home/pi/googledrive/motion_google_drive
+  737  cd /home/pi/googledrive/motion_google_drive
+  738  ls -l
+  739  tail -200f  /var/log/cron.log
+  740  > /var/log/cron.log
+  741  sudo  > /var/log/cron.log
+  742  su
+  743  ps -ef | grep finalscript
+  744  ps -ef | grep hup
+  745  ps -ef | grep script
+  746  ps -ef | grep ps
+  747  nohup /path/to/script >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+  748  ps -ef | grep cron
+  749  h/to/script >/home/pi/googledrive/motion_google_drive/cron.txt
+  750  /home/pi/googledrive/motion_google_drive/finalscript.sh
+  751  vi /home/pi/googledrive/motion_google_drive/finalscript.sh
+  752  /home/pi/googledrive/motion_google_drive/finalscript.sh
+  753  vi /home/pi/googledrive/motion_google_drive/finalscript.sh
+  754  /home/pi/googledrive/motion_google_drive/finalscript.sh
+  755  vi /home/pi/googledrive/motion_google_drive/finalscript.sh
+  756  /home/pi/googledrive/motion_google_drive/finalscript.sh
+  757  vi /home/pi/googledrive/motion_google_drive/script.sh
+  758  /home/pi/googledrive/motion_google_drive/script.sh
+  759  vi /home/pi/googledrive/motion_google_drive/script.sh
+  760  vi /home/pi/googledrive/motion_google_drive/uploader.cfg
+  761  /home/pi/googledrive/motion_google_drive/script.sh
+  762  vi /home/pi/googledrive/motion_google_drive/uploader.cfg
+  763  vi /home/pi/googledrive/motion_google_drive/script.sh
+  764  /home/pi/googledrive/motion_google_drive/script.sh
+  765  init 6
+  766  init 5
+  767  sudo init 6
+  768  /home/pi/googledrive/motion_google_drive/script.sh
+  769  vi /home/pi/googledrive/motion_google_drive/uploader.cfg
+  770  /home/pi/googledrive/motion_google_drive/script.sh
+  771  vi /home/pi/googledrive/motion_google_drive/uploader.cfg
+  772  vi ip.avi
+  773  /home/pi/googledrive/motion_google_drive/script.sh
+  774  cat ip.avi
+  775  /home/pi/googledrive/motion_google_drive/script.sh
+  776  cp /home/pi/googledrive/motion_google_drive/script.sh /home/pi/googledrive/motion_google_drive/script.sh.backup
+  777  /home/pi/googledrive/motion_google_drive/script.sh
+  778  vi /home/pi/googledrive/motion_google_drive/script.sh
+  779  /home/pi/googledrive/motion_google_drive/script.sh
+  780  cd python  /home/pi/googledrive/motion_google_drive/uploader.py  /home/pi/googledrive/motion_google_drive/uploader.cfg  /home/pi/googledrive/motion_google_drive/ip.avi
+  781  cd /home/pi/googledrive/motion_google_drive/
+  782  /home/pi/googledrive/motion_google_drive/script.sh
+  783  vi /home/pi/googledrive/motion_google_drive/script.sh
+  784  /home/pi/googledrive/motion_google_drive/script.sh
+  785  > ip.avi
+  786  /home/pi/googledrive/motion_google_drive/script.sh
+  787  /home/pi/googledrive/motion_google_drive/finalscript.sh
+  788  vi finalscript.sh
+  789  sh finalscript.sh
+  790  /home/pi/googledrive/motion_google_drive/script.sh
+  791  vi script.sh
+  792  /home/pi/googledrive/motion_google_drive/script.sh
+  793  ps
+  794  nohup /home/pi/googledrive/motion_google_drive/script.sh /home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+  795  ls -l /home/pi/googledrive/motion_google_drive/
+  796  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  797  tail - 200f  /home/pi/googledrive/motion_google_drive/cron.txt
+  798  tail - 200f /home/pi/googledrive/motion_google_drive/cron.txt
+  799  > /home/pi/googledrive/motion_google_drive/cron.txt
+  800  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  801  > /home/pi/googledrive/motion_google_drive/cron.txt
+  802  > /home/pi/googledrive/motion_google_drive/ip.avi
+  803  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  804  cat /home/pi/googledrive/motion_google_drive/ip.avi
+  805  > /home/pi/googledrive/motion_google_drive/ip.avi
+  806  cat /home/pi/googledrive/motion_google_drive/ip.avi
+  807  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  808  > /home/pi/googledrive/motion_google_drive/ip.avi
+  809  > /home/pi/googledrive/motion_google_drive/cron.txt
+  810  cat /home/pi/googledrive/motion_google_drive/ip.avi
+  811  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  812   /home/pi/googledrive/motion_google_drive/cron.txt
+  813  > /home/pi/googledrive/motion_google_drive/ip.avi
+  814  cat /home/pi/googledrive/motion_google_drive/cron.txt
+  815  > /home/pi/googledrive/motion_google_drive/cron.txt
+  816  > /home/pi/googledrive/motion_google_drive/ip.avi
+  817  ps
+  818  ps -ef
+  819  ps -ef |grep  script
+  820  ps -ef |grep  script.sh
+  821  clear
+  822  ps -ef |grep  script.sh
+  823  bg
+  824  bg
+  825  fg
+  826  ps -ef | grep script.sh
+  827  kill -9 2535
+  828  ps -ef | grep script.sh
+  829  kill -9 2645
+  830  kill -9 2648
+  831  killall -9 2648
+  832  ps -ef | grep script.sh
+  833  kill -9 4175
+  834  kill -9 4174
+  835  killall -9 4174
+  836  killall -9 5339
+  837  killall -9 5334
+  838  ps -ef | grep script.sh
+  839  killall -9 5334
+  840  ps -ef | grep script.sh
+  841  ps
+  842  ps -ef
+  843  killall -9 26063
+  844  kill -9 26064
+  845  kill -9 26063
+  846  kill -9 26062
+  847  ps -ef
+  848  crontab -e
+  849  init 6
+  850  sudo init 6
+  851  ps -ef
+  852  crontab -e
+  853  ps -ef
+  854  /etc/init.d/cron restart
+  855  sudo /etc/init.d/cron restart
+  856  ps -ef
+  857  init 6
+  858  sudo init 6
+  859  ps -ef
+  860  cd
+  861  /home/pi/googledrive/motion_google_drive
+  862  cd /home/pi/googledrive/motion_google_drive
+  863  vi script.sh
+  864  cp script.sh singlescript.sh
+  865  vi singlescript.sh
+  866  ./singlescript.sh
+  867  > ip.avi
+  868  ./singlescript.sh
+  869  ps -ef
+  870  ps -ef | grep script
+  871  ps -ef | grep cron
+  872  sudo /etc/init.d/cron restart
+  873  ps -ef | grep script
+  874  ps -ef | grep cron
+  875  ps -ef
+  876  ps -ef | grep script
+  877  ps -ef | grep home
+  878  cd /home/pi/googledrive/motion_google_drive/
+  879  vi script.sh
+  880  nohup /home/pi/googledrive/motion_google_drive/script.sh &
+  881  ps -ef
+  882  vi /home/pi/googledrive/motion_google_drive/script.sh
+  883  tail -200f /home/pi/googledrive/motion_google_drive/cron.txt
+  884  ps -ef
+  885  kill -9 2835
+  886  ps -ef
+  887  kill -9 3258
+  888  kill -9 3259
+  889  > /home/pi/googledrive/motion_google_drive/ip.avi
+  890  tail -200f /home/pi/googledrive/motion_google_drive/cron.txt
+  891  > /home/pi/googledrive/motion_google_drive/cron.txt
+  892  tail -200f /home/pi/googledrive/motion_google_drive/cron.txt
+  893  crontab -e
+  894  sudo init 6
+  895  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+  896  sp -ef
+  897  ps -ef
+  898  tail -200f /home/pi/googledrive/motion_google_drive/cron.txt
+  899  ps -ef
+  900  kill -9 2147
+  901  ps -ef | grep script
+  902  tail -200f /home/pi/googledrive/motion_google_drive/cron.txt
+  903  > /home/pi/googledrive/motion_google_drive/cron.txt
+  904  /home/pi/googledrive/motion_google_drive/script.sh
+  905  /home/pi/googledrive/motion_google_drive/singlescript.sh
+  906  vi ip.avi
+  907  /home/pi/googledrive/motion_google_drive/singlescript.sh
+  908  vi /home/pi/googledrive/motion_google_drive/singlescript.sh
+  909  cat  /home/pi/googledrive/motion_google_drive/ip.avi
+  910  ls
+  911  rm ip.avi
+  912  vi /home/pi/googledrive/motion_google_drive/ip.avi
+  913  ps -ef | grep script
+  914  kill -9 2171
+  915  ps -ef | grep script
+  916  ps -ef | grep cron
+  917  kill -9 2189
+  918  sp -ef
+  919  ps -ef
+  920  /home/pi/googledrive/motion_google_drive/script.sh
+  921  ps -ef | grep script
+  922  kill -9 2272
+  923  vi /home/pi/googledrive/motion_google_drive/ip.avi
+  924  > /home/pi/googledrive/motion_google_drive/cron.txt
+  925  cat /home/pi/googledrive/motion_google_drive/ip.avi
+  926  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+  927  tail -200f /home/pi/googledrive/motion_google_drive/cron.txt
+  928  ps -ef
+  929  kill -9 2316
+  930  tail  /home/pi/googledrive/motion_google_drive/cron.txt
+  931  kill -9 2296
+  932  ps -ef | grep script
+  933  /home/pi/googledrive/motion_google_drive/script.sh
+  934  ps -ef
+  935  kill -9 2330 2324
+  936  vi /home/pi/googledrive/motion_google_drive/script.sh
+  937  ps -ef | grep script
+  938  /home/pi/googledrive/motion_google_drive/script.sh
+  939  ps -ef | grep script
+  940  ps -ef
+  941  vi /home/pi/googledrive/motion_google_drive/script.sh
+  942  /home/pi/googledrive/motion_google_drive/script.sh
+  943  ps -ef
+  944  ps -ef | grep script
+  945  vi /home/pi/googledrive/motion_google_drive/script.sh
+  946  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+  947  tail  /home/pi/googledrive/motion_google_drive/cron.txt
+  948  vi
+  949  vi /home/pi/googledrive/motion_google_drive/ip.avi
+  950  tail  /home/pi/googledrive/motion_google_drive/cron.txt
+  951  cat /home/pi/googledrive/motion_google_drive/ip.avi
+  952  tail  /home/pi/googledrive/motion_google_drive/cron.txt
+  953  ps -ef
+  954  kill -9 2476
+  955  ps -ef | grep script
+  956  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+  957  tail  /home/pi/googledrive/motion_google_drive/cron.txt
+  958  cat /home/pi/googledrive/motion_google_drive/ip.avi
+  959  sudo mv /boot/boot_enable_ssh.rc /boot/boot.rc
+  960  ps -ef | grep ssh
+  961  vi /etc/ssh/sshd_config
+  962  su
+  963  sudo vi /etc/ssh/sshd_config
+  964  vi /etc/ssh/sshd_config
+  965  su
+  966  vi  /etc/ssh/sshd_config
+  967  sudo vi  /etc/ssh/sshd_config
+  968  cp
+  969  cp /etc/ssh/sshd_config /home/pi/backup/.
+  970  cp /etc/ssh/sshd_config /home/pi/backup/
+  971  mkdir /home/pi/backup/
+  972  cp /etc/ssh/sshd_config /home/pi/backup/
+  973  vi /home/pi/backup/sshd_config
+  974  sudo vi  /etc/ssh/sshd_config
+  975  /etc/init.d/ssh restart
+  976  sudo /etc/init.d/ssh restart
+  977  sudo init 6
+  978  sudo vi  /etc/ssh/sshd_config
+  979  sudo /etc/init.d/ssh restart
+  980  sudo init 6
+  981  sudo vi  /etc/ssh/sshd_config
+  982  sudo /etc/init.d/ssh restart
+  983  sudo init 6
+  984  sudo vi  /etc/ssh/sshd_config
+  985  sudo /etc/init.d/ssh restart
+  986  sudo init 6
+  987  sudo vi  /etc/ssh/sshd_config
+  sudo vi /etc/ssh/ssh_config
+  988  sudo /etc/init.d/ssh restart
+  989  sudo init 6
+  990  sudo vi  /etc/ssh/sshd_config
+  991  cp /home/pi/backup/sshd_config /etc/ssh/sshd_config
+  992  sudo cp /home/pi/backup/sshd_config /etc/ssh/sshd_config
+  993  sudo init 6
+  994  sudo /etc/init.d/ssh restart
+  995  sudo init 6
+  996  which bash
+  997  chsh -s /usr/local/bin/bash kethan
+  998  sudo chsh -s bin/bash kethan
+  999  sudo chsh -s /bin/bash kethan
+ 1000  getent passwd kethan
+ 1001  getent passwd pi
+ 1002  ssh -vv kethan@117.192.130.45
+ 1003  find / -bame "sshd.log"
+ 1004  find / -name "sshd.log"
+ 1005  sudo find / -name "sshd.log"
+ 1006  tail -200f /var/log/
+ 1007  sudo tail -200f /var/log/
+ 1008  cat /var/log/
+ 1009  cd /var/log/
+ 1010  ls
+ 1011  dmesg
+ 1012  ls -l
+ 1013  ls -lr
+ 1014  ls -lt
+ 1015  cat auth.log
+ 1016  > auth.log
+ 1017  sudo > auth.log
+ 1018  su
+ 1019  cat /etc/hosts.deny
+ 1020  cat /etc/hosts.allow
+ 1021  vi /etc/hosts.allow
+ 1022  sudo vi /etc/hosts.allow
+ 1023  sudo init 6
+ 1024  sudo vi  /etc/ssh/sshd_config
+ 1025  sudo /etc/init.d/ssh restart
+ 1026  sudo init 6
+ 1027  sudo vi  /etc/ssh/sshd_config
+ 1028  sudo /etc/init.d/ssh restart
+ 1029  sudo init 6
+ 1030  vi /etc/hosts.allow
+ 1031  sudo vi /etc/hosts.allow
+ 1032  sudo vi  /etc/ssh/sshd_config
+ 1033  sudo /etc/init.d/ssh restart
+ 1034  sudo init 6
+ 1035  sudo vi  /etc/ssh/sshd_config
+ 1036  su kethan
+ 1037  sudo vi  /etc/ssh/sshd_config
+ 1038  sudo /etc/init.d/ssh restart
+ 1039  sudo init 6
+ 1040  cat auth.log
+ 1041  cat auth.log
+ 1042  cd /var/log/
+ 1043  cat auth.log
+ 1044  sudo >  auth.log
+ 1045  su
+ 1046  telnet 117.192.134.185 47624
+ 1047  ps -ef | grep ssh
+ 1048  ps -ef | grep script
+ 1049  vi /etc/ssh/sshd_config
+ 1050  sudo vi /etc/ssh/sshd_config
+ 1051  sudo /etc/init.d/ssh restart
+ 1052  sudo vi /etc/hosts.allow
+ 1053  sudo init 6
+ 1054  sudo vi /etc/ssh/sshd_config
+ 1055  sudo /etc/init.d/ssh restart
+ 1056  sudo init 6
+ 1057  sudo vi /etc/ssh/sshd_config
+ 1058  sudo /etc/init.d/ssh restart
+ 1059  sudo init 6
+ 1060  sudo apt-get install OpenSSH
+ 1061  sudo apt-get install openssh
+ 1062  sudo apt-get update
+ 1063  ping kethan.thruhere.net
+ 1064  sudo vi /etc/ssh/sshd_config
+ 1065  sudo /etc/init.d/ssh restart
+ 1066  sudo init 6
+ 1067  cmd
+ 1068  sudo vi /etc/ssh/sshd_config
+ 1069  sudo /etc/init.d/ssh restart
+ 1070  sudo vi /etc/ssh/sshd_config
+ 1071  sudo /etc/init.d/ssh restart
+ 1072  sudo vi /etc/ssh/sshd_config
+ 1073  rm /etc/ssh/.sshd_config.swp
+ 1074  sudo rm /etc/ssh/.sshd_config.swp
+ 1075  rm /etc/ssh/.sshd_config.swp
+ 1076  sudo vi /etc/ssh/sshd_config
+ 1077  sudo /etc/init.d/ssh restart
+ 1078  sudo /etc/init.d/ssh stop
+ 1079  sudo /etc/init.d/ssh start
+ 1080  sudo init 6
+ 1081  exit
+ 1082  arp-scan -I eth0 -l | grep 192.
+ 1083  sudo apt-get install arping
+ 1084  sudo iptables -L
+ 1085  sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+ 1086  sudo iptables -A INPUT -p tcp --dport 27443 -j ACCEPT
+ 1087  sudo iptables -L
+ 1088  sudo iptables -A INPUT -p tcp --dport ssh -j ACCEPT
+ 1089  service iptables restart
+ 1090  sudo init 6
+ 1091  iptables -L
+ 1092  sudo iptables -l
+ 1093  sudo iptables -L
+ 1094  clear
+ 1095  iptables -L
+ 1096  sudo iptables -L
+ 1097  sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+ 1098  sudo iptables -L
+ 1099  init 6
+ 1100  sudo init 6
+ 1101  sudo iptables -L
+ 1102  sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+ 1103  sudo iptables -L
+ 1104  sudo iptables -A INPUT -p tcp --dport 27443 -j ACCEPT
+ 1105  sudo iptables restart
+ 1106  sudo iptable s
+ 1107  sudo iptables
+ 1108  sudo find / -name "iptables"
+ 1109  sudo /sbin/iptables restart
+ 1110  /sbin/iptables -A INPUT -m state --state NEW -p tcp --dport 443 -j ACCEPT
+ 1111  sudo /sbin/iptables -A INPUT -m state --state NEW -p tcp --dport 443 -j ACCEPT
+ 1112  sudo iptables -L
+ 1113  nmap -P0 192.168.1.6 27443
+ 1114  sudo apt-get install nmap
+ 1115  top
+ 1116  cat /proc/meminfo
+ 1117  clear
+ 1118  cat /proc/meminfo
+ 1119  cloear
+ 1120  cat /proc/meminfo /etc/init.d/f
+ 1121  /etc/init.d/fir
+ 1122  find / -name "firewall"
+ 1123  sudo find / -name "firewall"
+ 1124  sudo apt-get install ca-certificates
+ 1125  sudo wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
+ 1126  sudo apt-get install git-core
+ 1127  sudo rpi-update
+ 1128  sudo reboot
+ 1129  sudo grep gateway /etc/network/interfaces
+ 1130  sudo grep gateway /sbin/ifconfig
+ 1131  cat /sbin/ifconfig
+ 1132  [Aps -ef
+ 1133  ps -ef
+ 1134  /sbin/ifconfig
+ 1135  /sbin/ifconfig | grep gateway
+ 1136  udo bash -c 'iptables-save > /etc/network/iptables'
+ 1137  cat /etc/network/iptables
+ 1138  sudo iptables-save
+ 1139  sudo iptables -A INPUT -p tcp --dport 27443 -j ACCEPT
+ 1140  sudo iptables-save
+ 1141  sudo iptables -l
+ 1142  sudo iptables -L
+ 1143  init 6
+ 1144  reboot
+ 1145  sudo reboot
+ 1146  sudo vi /etc/ssh/sshd_config
+ 1147  sudo /etc/init.d/ssh restart
+ 1148  sudo iptables -l
+ 1149  sudo iptables -L
+ 1150  sudo iptables -A INPUT -p tcp --dport 27443 -j ACCEPT
+ 1151  sudo iptables -A INPUT -p tcp --dport ssh -j ACCEPT nano /etc/iptables.test.rules
+ 1152  sudo iptables restart
+ 1153  sudo iptables-save
+ 1154  sudo iptables -L
+ 1155  ssudo iptables-save
+ 1156  sudo  iptables-save > /etc/iptables.up.rules
+ 1157  vi /etc/iptables.up.rules
+ 1158  sudo vi /etc/iptables.up.rules
+ 1159  sudo  iptables-save > /etc/iptables.up.rules
+ 1160  sudo iptables-save > /etc/iptables.up.rules
+ 1161  sudo iptables-save
+ 1162  sudo iptables-save > /home/pc/iptables.up.rules
+ 1163  sudo iptables-save > /home/pi/iptables.up.rules
+ 1164  vi /etc/network/if-pre-up.d/iptables
+ 1165  clear
+ 1166  iptables -L
+ 1167  sudo iptables -L
+ 1168  /etc/sysconfig/iptables
+ 1169  iptables-save > iptables.dump
+ 1170  ls
+ 1171  /etc/network/if-post-down.d/iptablessave
+ 1172  sudo chmod +x /etc/network/if-post-down.d/s
+ 1173  sudo iptables -F
+ 1174  dmesg
+ 1175  sudo dmesg
+ 1176  sudo iptables -F
+ 1177  sudo iptables -L
+ 1178  sudo iptables -A INPUT -p tcp --dport 27443 -j ACCEPT
+ 1179  sudo  iptables -L
+ 1180  tail -f /var/log/messages
+ 1181  iptables -N LOGGING
+ 1182  sudo iptables -N LOGGING
+ 1183  tail -f /var/log/messages
+ 1184  sudo iptables -A INPUT -p tcp --dport 81 -j ACCEPT
+ 1185  sudo iptables -A INPUT -p udp --dport 81 -j ACCEPT
+ 1186  sudo apt-cache search IPFire
+ 1187  sudo find / -name "IPFire"
+ 1188  sudo find / -name "ipfire"
+ 1189  telnet 192.168.1.1 27443
+ 1190  telnet 192.168.1.1 22
+ 1191  telnet 192.168.1.1 23
+ 1192  telnet 192.168.1.1 25
+ 1193  telnet 192.168.1.1 27443
+ 1194  telnet 192.168.1.1 2
+ 1195  telnet 192.168.1.1 222
+ 1196  telnet 192.168.1.1 22
+ 1197  telnet 192.168.1.1 37756
+ 1198  telnet 192.168.1.1 48840
+ 1199  telnet 192.168.1.1 64356
+ 1200  ifconfig
+ 1201  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+ 1202  cat /home/pi/googledrive/motion_google_drive/cron.txt
+ 1203  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+ 1204  ps -ef | grep script.sh
+ 1205  nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+ 1206  tail -f /var/log/messages
+ 1207  iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
+ 1208  sudo iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
+ 1209  dmesg
+ 1210  sudo iptables -L
+ 1211  clear
+ 1212  history
+ 1213  sudo vi /etc/ssh/sshd_config
+ 1214  sudo /etc/init.d/ssh restart
+ 1215  sudo /etc/init.d/ssh stop
+ 1216  sudo /etc/init.d/ssh start
+ 1217  history
+pi@raspberrypi ~ $
+
+/////////////////////////////////////////////////////////////////////
+   58  sudo /etc/init.d/ssh start
+   59  sudo vi /etc/ssh/ssh_config
+   60  sudo init 5
+   61  sudo /etc/init.d/ssh stop
+   62  sudo /etc/init.d/ssh start
+   63  poweroff
+   64  sudo poweroff
+   65  last shutdown
+   66  sudo apt-get update
+   67  sudo apt-get install noip2
+   68  sudo apt-get install no-ip
+   69  sudo apt-cache search "*no*
+   70  ;
+   71  ls -l
+   72  mkdir no-ip
+   73  cd no-ip/
+   74  wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+   75  cd ..
+   76  cd /
+   77  sudo  du -sh * | sort -nr | head
+   78  ps -ef
+   79  cd $home
+   80  ls -l
+   81  cd no-ip/
+   82  ls -l
+   83  cd noip-2.1.9-1/
+   84  make install
+   85  cd ..
+   86  chmod * 777
+   87  sudo  777 * -f
+   88  sudo chmod  777 * -f
+   89  cd noip-2.1.9-1/
+   90  make install
+   91  sudo
+   92  su
+   93  sudo passwd root
+   94  su
+   95  sudo passwd root
+   96  su
+   97  sl -l
+   98  ls -l
+   99  cd no-ip/
+  100  ls -l
+  101  vi out.txt
+  102  echo "hello">> out.txt
+  103  cat out.txt
+  104  echo "hello">> out.txt
+  105  cat out.txt
+  106  > out.txt
+  107  cat out.txt
+  108  ls -l
+  109  cd no-ip
+  110  ls -l
+  111  pwd
+  112  cd no-ip/
+  113  ls -l
+  114  tail -200f out.txt
+  115  cat out.txt
+  116  tail -200f out.txt
+  117  ps -ef | grep cron
+  118  ps -ef
+  119  echo "hello">> out.txt
+  120  ls -l
+  121  cd no-ip/
+  122  echo "hello">> out.txt
+  123  echo "check">> out.txt
+  124  crontab -e
+  125  su
+  126  ps -ef |grep "no"
+  127  su
+  128  uptime
+  129  time
+  130  date
+  131  time
+  132  uptime
+  133  ps -ef |grep "no"
+  134  sudo find / -name "light"
+  135  sudo find / -name "li"
+  136  sudo find / -name "√light√"
+  137  sudo find / -name "lighttp"
+  138  cd /etc/
+  139  q
+  140  cls
+  141  clear
+  142  sudo find / -name "http"
+  143  sudo find / -name "httpd"
+  144  sudo vi /etc/lighttpd/lighttpd.conf
+  145  clear
+  146  service lighttpd restart
+  147  sudo service lighttpd restart
+  148  sudo init 6
+  149  sudo vi /etc/lighttpd/lighttpd.conf
+  150  sudo vi /etc/lighttpd/
+  151  cd /etc/lighttpd/
+  152  ls -l
+  153  du -s
+  154  cd ../..
+  155  du -s
+  156  s -ef | grep du
+  157  ps -ef | grep du
+  158  ps -ef | grep "du"
+  159  sudo du -s
+  160  cd /usr/lib/cgi-bin
+  161  ls -l
+  162  vi kethan.html
+  163  sudo vi kethan.html
+  164  lighty-enable-mod cgi
+  165  sudo lighty-enable-mod cgi
+  166  sudo /etc/init.d/lighttpd stop
+  167  sudo /etc/init.d/lighttpd start
+  168  sudo /etc/init.d/lighttpd restart
+  169  ls -l
+  170  cd ..
+  171  ls -l
+  172  cd lighthttpd
+  173  ls
+  174  cd /etc/lighttpd/
+  175  ls -l
+  176  vi lighttpd.conf
+  177  cd /usr/lib/cgi-bin/
+  178  cd /etc/lighttpd/conf-
+  179  cd /etc/lighttpd/
+  180  ls -l
+  181  cd conf-enabled/
+  182  ls -l
+  183  vi 10-cgi.conf
+  184  cd ..
+  185  ls -l
+  186  cd conf-available/
+  187  ls -l
+  188* cd ..~~
+  189  ls -l
+  190  vi /usr/lib/cgi-bin/kethan.html
+  191  vi /usr/lib/cgi-bin/index.html
+  192  sudo vi /usr/lib/cgi-bin/index.html
+  193  sudo /etc/init.d/lighttpd st
+  194  sudo /etc/init.d/lighttpd stop
+  195  sudo /etc/init.d/lighttpd start
+  196  sudo /etc/init.d/lighttpd restart
+  197  ls -l
+  198  vi /etc/
+  199  mkdir -p /home/lighttpd/kethan/cgi-bin
+  200  sudo mkdir -p /home/lighttpd/kethan/cgi-bin
+  201  vi kethan.html
+  202  sudo vi kethan.html
+  203  sudo /etc/init.d/lighttpd restart
+  204  cd /usr/lib/cgi-bin
+  205  ls -ol
+  206  ls
+  207  cd /home/lighttpd/kethan/cgi-bin
+  208  ls
+  209  ls -l
+  210  cd ../..
+  211  ls
+  212  cd kethan/
+  213  cd cgi-bin/
+  214  ls
+  215  sudo vi kethan.html
+  216  sudo /etc/init.d/lighttpd restart
+  217  cd /etc/lighttpd/
+  218  ls -l
+  219  pwd
+  220  vi lighttpd.conf
+  221  cd /var/www
+  222  ls -l
+  223  sudo find / -name "kethan.html"
+  224  rm /etc/lighttpd/kethan.html /home/lighttpd/kethan/cgi-bin/kethan.html /usr/lib/cgi-bin/kethan.html
+  225  sudo rm /etc/lighttpd/kethan.html /home/lighttpd/kethan/cgi-bin/kethan.html /usr/lib/cgi-bin/kethan.html
+  226  vi kethan.html
+  227  sudo vi kethan.html
+  228  ls -l
+  229  mv  index.lighttpd.html index.lighttpd.html.backup
+  230  sudo mv  index.lighttpd.html index.lighttpd.html.backup
+  231  find /usr/local/bin/noip2
+  232  /usr/local/bin/noip2 -C
+  233  sudo /usr/local/bin/noip2 -C
+  234  su
+  235  ps -ef
+  236  ls -l
+  237  cat out.txt
+  238  ls -l
+  239  cd no-ip/
+  240  ls -l
+  241  cd /etc/init/
+  242  ls -l
+  243  cd ..
+  244  cd lighttpd/
+  245  ls -l
+  246  cd /etc/init.d/
+  247  ls -l
+  248  vi checkfs.sh
+  249  exit
+  250  sudo /etc/init.d/lighttpd restart
+  251  /usr/local/bin/noip2 -C
+  252  cd /home/lighttpd/kethan/cgi-bin
+  253  vi lighttpd.conf
+  254  cd ../..
+  255  vi lighttpd.conf
+  256  find / lighttpd.conf
+  257  find / -name "lighttpd.conf"
+  258  sudo find / -name "lighttpd.conf"
+  259  vi /etc/lighttpd/lighttpd.conf
+  260  vi /etc/ssh/ssh_config
+  261  shutdown
+  262  shutdown -0
+  263  shutdown now
+  264  shutdown -now
+  265  shutdown -time now
+  266  turnoff
+  267  exit
+  268  /usr/local/bin/noip2 -C
+  269  sudo /usr/local/bin/noip2
+  270  sudo apt-get update
+  271  ~
+  272  sudo apt-g
+  273  sudo apt-get install VNC
+  274  sudo apt-cache search "*VNC*
+  275  ';L
+  276  sudo apt-cache search "VNC@
+  277  @
+  278  @
+  279  sudo cat /proc/meminfo
+  280  SUDO APT-CACHE
+  281  sudo apt-cache
+  282  sudo apt-cache search vnc
+  283  cleR
+  284  clear
+  285  sudo apt-cache search vnc
+  286  sudo apt-cache search vnc ~ grep @server@
+  287  sudo apt-cache search vnc  grep 'server'
+  288  sudo raspi-config
+  289  tightvncserver
+  290  vncserver :1 -geometry 1024x728 -depth 24
+  291  vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565
+  292  sudo vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565
+  293  init 5
+  294  sudo init 5
+  295  pwd
+  296  mkdir vnc
+  297  cd vnc/
+  298  vi vnc_config
+  299  chmod +x vnc_config
+  300  ./vnc_config
+  301  sudo bash
+  302  sudo
+  303  sudo apt-get install deluged
+  304  fdisk
+  305  top
+  306  meminfos
+  307  meminfo
+  308  vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565
+  309  clear
+  310  vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565
+  311  vi /home/pi
+  312  sudo vi /etc/init.d/StartUpScriptBoot
+  313  cd no-ip/
+  314  history
+  315  clear
+  316  history
+
+  
+  
+  
+  
+    cd /usr/local/src
+    wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+    tar xzf noip-duc-linux.tar.gz
+    cd no-ip-2.1.9
+    make
+    make install
+
+	/usr/local/bin/noip2 -C 
+	
+	/usr/local/bin/noip2
+	
+	sudo raspi-config
+	
+	
+	sudo apt-get install deluged deluge-web deluge-webui deluge-console  deluge-gtk deluge
+	sudo apt-get install tightvncserver
+	
+	vncserver :1 
+	vncserver :1 -geometry 1024x728 -depth 24
+
+	vi ~/.bashrc
+	
+	
+	
+	https://extremeshok.com/2012/07/22/raspberry-pi-raspbian-tuning-optimising-optimizing-for-reduced-memory-usage/
+	
+	
+	
+  
+  

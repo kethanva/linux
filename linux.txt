@@ -1,0 +1,9 @@
+nohup /home/pi/googledrive/motion_google_drive/script.sh  >/home/pi/googledrive/motion_google_drive/cron.txt 2>&1 &
+
+37656
+
+ du -sh * | sort -nr | head
+df -h
+
+
+/etc/init.d/crond restart

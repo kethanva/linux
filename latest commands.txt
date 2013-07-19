@@ -1,0 +1,27 @@
+sudo vi /etc/ssh/sshd_config
+sudo vi /etc/ssh/ssh_config
+
+sudo  du -sh * | sort -nr | head
+df -h
+free
+cat /proc/meminfo 
+
+
+sudo apt-get clean
+sudo apt-get remove --purge deluge -------> remove a package
+dpkg –get-selections -------> list all the installed packages
+dpkg -L php5-gd ------->we find the locations of the files within a package from the list by using the dpkg -L 
+free
+df -h
+du
+tightvncserver :1
+sudo rm -rf /tmp/.X11-unix/
+tightvncserver -kill :1
+aptitude -F "%p" search \!~M~i~T -------> This will list all packages that are marked as "manually installed" in your system. If you manage to clean that list of X related packages, and then do an apt-get autoremove, you've got a clean system.
+sudo aptitude purge idle blt tk8.5 idle3 python-tk python3-tk ------->remove unwanted packages
+aptitude -F "%p" search \!~M~i~T -------> This will list all packages that are marked as "manually installed" in your system. If you manage to clean that list of X related packages, and then do an apt-get autoremove, you've got a clean system.
+
+
+http://tldp.org/LDP/sag/html/system-resources.html
+http://linuxaria.com/howto/linux-memory-management?lang=en
+http://www.thegeekstuff.com/2010/01/15-practical-unix-linux-top-command-examples/
